@@ -1,9 +1,13 @@
 {
   "name": "week-4",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.18.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
@@ -32,5 +36,17 @@
     "@types/passport": "^1.0.7",
     "@types/passport-local": "^1.0.34",
     "@types/passport-local-mongoose": "^6.1.0"
-  }
+  },
+  "description": "Authentication Project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmodi2/AuthProject.git"
+  },
+  "author": "Nishit Modi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmodi2/AuthProject/issues"
+  },
+  "homepage": "https://github.com/nmodi2/AuthProject#readme"
 }
